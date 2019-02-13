@@ -1,0 +1,6 @@
+# 使用するポート番号(デフォルト8761だが分かりやすく明示)
+server:
+  port: 8096
+
+hello:
+  message: Hello world! 2019/02/13
