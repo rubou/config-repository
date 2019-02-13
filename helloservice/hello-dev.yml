@@ -2,5 +2,12 @@
 server:
   port: 8096
 
+# setting for refresh
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
 hello:
   message: Hello world! 2019/02/13
